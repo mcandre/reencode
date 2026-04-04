@@ -1,0 +1,22 @@
+#!/bin/bash
+unset IFS
+set -eu
+
+usage() {
+    printf "Usage: %s <video>\n" "$0"
+}
+
+if [ "$#" != 1 ]; then
+    usage
+    exit 1
+fi
+
+src="$1"
+base="${src%.*}"
+dest="$base.mp4"
+
+ffmpeg \
+    -i "$src" \
+    -c:v libx264 \
+    -c:a aac \
+    "$dest"
