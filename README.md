@@ -4,7 +4,7 @@
 
 # SUMMARY
 
-reencode unifies videos to the exceptionally portable (x264) MP4 format.
+reencode unifies videos to the exceptionally portable (x264, AAC) MP4 format.
 
 # EXAMPLE
 
