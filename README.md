@@ -1,6 +1,6 @@
 # reencode: video normalizer
 
-[![Lint](https://github.com/mcandre/reencode/actions/workflows/lint.yml/badge.svg)](https://github.com/mcandre/reencode/actions/workflows/lint.yml) [![license](https://img.shields.io/badge/license-BSD-0)](LICENSE.md)
+[![CI/CD](https://badgen.net/github/checks/mcandre/reencode?icon=github)](https://github.com/mcandre/reencode/actions) [![License](https://badgen.net/static/license/BSD/ab2b29?icon=freebsd)](LICENSE.md)
 
 # SUMMARY
 
@@ -21,6 +21,8 @@ video.mp4
 ```sh
 git clone https://github.com/mcandre/reencode.git ~/src/github.com/mcandre/reencode
 ```
+
+## Prerequisites
 
 * [bash](https://www.gnu.org/software/bash/) 4+
 * [ffmpeg](https://www.ffmpeg.org/)
