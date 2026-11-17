@@ -16,7 +16,9 @@ base="${src%.*}"
 dest="$base.mp4"
 
 ffmpeg \
+    -threads 2 \
     -i "$src" \
     -c:v libx264 \
     -c:a aac \
+    -threads 1 \
     "$dest"
